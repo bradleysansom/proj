@@ -1,10 +1,10 @@
-name: 'Wait'
+name: 'Parse RSS feed'
 description: 'Wait a designated number of milliseconds'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  who-to-greet:  # rss
+    description: 'who to greet'
     required: true
-    default: '1000'
+    default: 'greeting hello'
 outputs:
   time: # output will be available to future steps
     description: 'The current time after waiting'
